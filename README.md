@@ -37,7 +37,7 @@ Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
 
- I think that the average case is $\Theta(n^2)$ because except for the best case scenario it has to do a significant amount swapping of elements
+ I think that the average case is $\Theta(n^2)$ because, except for the best-case scenario, it has to Both loops several times to sort the most basic unsorted array. 
 
  For this assignment, I was able to do it entirely on my own with a little help looking up syntax from the Internet.
 
