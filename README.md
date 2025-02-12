@@ -36,3 +36,9 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+ I think that the average case is $\Theta(n^2)$ because except for the best case scenario it has to do a significant amount swapping of elements
+
+ For this assignment, I was able to do it entirely on my own with a little help looking up syntax from the Internet.
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
