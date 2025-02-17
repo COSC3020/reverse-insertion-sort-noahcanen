@@ -36,3 +36,10 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+I think the average case is $\Theta(n^2)$ because, except for the best-case scenario, it must do Both loops several times to sort the most basic unsorted array. Inside of normal insertion sort, the 1st loop goes from the back of the array to the front of the array, so n-1 times. The 2nd loop checks to see if each element is more than the element behind it, and if it finds an element that is less than the one behind, it moves that element back until it either gets to the end or finds an element that is more than it. This means that the maximum number of times this loop activates is n(n - 1)/2 in the case of a reverse sorted loop and 0 in the case of a sorted loop. Since the 2nd loop only activates if there is an unsorted pair, we can reduce the number of options to a list of ones and zeros where zeros represent a sorted pair, and one represents an unsorted pair.  Each possibility is equally likely inside an average case, so we must divide the worst possible case in half. So $(n(n - 1)/2)/2 = n^2-n/4$ and then add in the n-1 from the 1st loop, and we get a total average complexity of $n^2-n/4 + n-1$, which means the average time complexity of Insertion sort is $\Theta(n^2)$
+
+
+ For this assignment, I was able to do the coding entirely on my own, but for the Explanation part, I got a good amount of the reasoning from https://stackoverflow.com/questions/17055341/why-is-insertion-sort-%CE%98n2-in-the-average-case. 
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
